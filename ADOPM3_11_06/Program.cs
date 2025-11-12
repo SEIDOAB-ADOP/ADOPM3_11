@@ -10,7 +10,6 @@ namespace ADOPM3_11_06
         {
             Console.WriteLine(typeof(Program).Assembly.GetName()); // Example8_06....
             Console.WriteLine(typeof(Program).Assembly.GetName().Version); // 1.0.0.0 
-            Console.WriteLine(typeof(Program).Assembly.GetName().CodeBase); // ...file:///C:/Users/marti/Development/Vi...
 
             ResourceManager rm = new ResourceManager("Example8_06.Properties.Resources", Assembly.GetExecutingAssembly());
 
